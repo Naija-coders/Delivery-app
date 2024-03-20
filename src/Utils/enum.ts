@@ -1,0 +1,3 @@
+enum LINK {
+link='link'
+}

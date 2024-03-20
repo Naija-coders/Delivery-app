@@ -5,11 +5,8 @@ type Props = {}
 
 //TODO explore the link should be active and color set to green
 
-
 export default function Navbar({ }: Props) {
-
     const [color, setcolor] = useState('green')
-
     return (
         <div className='body'>
             <div className='container'>
@@ -19,7 +16,7 @@ export default function Navbar({ }: Props) {
                         <div style={{
                             color: 'green'
                         }}>Explore</div>
-                        <div>contact us</div>
+                        <div>Contact us</div>
                         <div style ={{
                             padding:"1rem",
                             borderRadius:"10px",
