@@ -1,3 +1,3 @@
-enum LINK {
+export enum LINK {
 link='link'
 }
