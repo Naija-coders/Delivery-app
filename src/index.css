@@ -11,3 +11,58 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.flex-body{
+display: flex;
+width: 100%;
+justify-content: space-between;
+background-color: white;
+color: green;
+border-radius: '8px';
+border-bottom: 1px solid green;
+padding: 20px;
+align-items: center;
+
+}
+
+.flex-body div {
+color:black;
+font-size: 20px
+}
+
+.flex-nav{
+  display: flex;
+  justify-content: space-evenly;
+  gap:4rem;
+  align-items: center;
+  
+}
+
+.icon{
+ display: none;
+}
+
+.box {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.container {
+  width: 100%;
+  max-width: 1400px;
+  padding-right: 2rem;
+}
+
+@media only screen and (max-width: 700px) {
+.flex-nav{
+ visibility: hidden;
+}
+
+.icon{
+display: block;
+
+}
+}
